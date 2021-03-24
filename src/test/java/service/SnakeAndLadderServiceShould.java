@@ -6,10 +6,15 @@ import service.SnakeAndLadderService;
 public class SnakeAndLadderServiceShould {
     SnakeAndLadderService snakeAndLadderService = new SnakeAndLadderService();
 
-    //This should not throw any exception
+    //test cases should not throw any exception
     @Test
-    public void startGame() {
-        snakeAndLadderService.startGame();
+    public void startGamewithcrookeddice() {
+        snakeAndLadderService.startGame(true);
+    }
+
+    @Test
+    public void startGamewithoutcrookeddice() {
+        snakeAndLadderService.startGame(false);
     }
 
 }

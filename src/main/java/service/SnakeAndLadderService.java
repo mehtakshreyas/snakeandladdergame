@@ -31,11 +31,10 @@ public class SnakeAndLadderService {
         snakeAndLadderBoard.setSnakes(snakes);
     }
 
-    public void startGame() {
+    public void startGame(boolean shouldGameStartwithcrookedDice) {
         gameinitialization();
-        DiceService diceService = new DiceService();
         while (!isGameCompleted()) {
-            int totalDiceValue = diceService.roll();
+            int totalDiceValue = DiceService.roll(shouldGameStartwithcrookedDice);
             movePlayer(totalDiceValue);
         }
     }

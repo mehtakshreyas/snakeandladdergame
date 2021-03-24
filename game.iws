@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d68f858-2c76-4e45-a219-41fb7b145b27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/SnakeAndLadderBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,7 +13,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.iws" beforeDir="false" afterPath="$PROJECT_DIR$/game.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/DiceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/SnakeAndLadderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/SnakeAndLadderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/DiceServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/DiceServiceShould.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/SnakeAndLadderServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/SnakeAndLadderServiceShould.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +28,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,13 +68,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SnakeAndLadderServiceShould.startGame">
-    <configuration name="DiceServiceShould.roll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SnakeAndLadderServiceShould">
+    <configuration name="DiceServiceShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;service.DiceServiceShould.roll&quot;" />
+        <option name="scriptParameters" value="--tests &quot;service.DiceServiceShould&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -77,12 +89,72 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SnakeAndLadderServiceShould.startGame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DiceServiceShould.rollwithcrookeddice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;service.SnakeAndLadderServiceShould.startGame&quot;" />
+        <option name="scriptParameters" value="--tests &quot;service.DiceServiceShould.rollwithcrookeddice&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DiceServiceShould.rollwithoutcrookeddice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;service.DiceServiceShould.rollwithoutcrookeddice&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SnakeAndLadderServiceShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;service.SnakeAndLadderServiceShould&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SnakeAndLadderServiceShould.startGamewithcrookeddice" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;service.SnakeAndLadderServiceShould.startGamewithcrookeddice&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -99,8 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SnakeAndLadderServiceShould.startGame" />
-        <item itemvalue="Gradle.DiceServiceShould.roll" />
+        <item itemvalue="Gradle.SnakeAndLadderServiceShould" />
+        <item itemvalue="Gradle.DiceServiceShould" />
+        <item itemvalue="Gradle.DiceServiceShould.rollwithcrookeddice" />
+        <item itemvalue="Gradle.DiceServiceShould.rollwithoutcrookeddice" />
+        <item itemvalue="Gradle.SnakeAndLadderServiceShould.startGamewithcrookeddice" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616591500600</updated>
-      <workItem from="1616591503786" duration="2288000" />
+      <workItem from="1616591503786" duration="3034000" />
     </task>
     <servers />
   </component>
@@ -131,5 +206,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/service/SnakeAndLadderService.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/service/DiceServiceShould.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/service/DiceServiceShould.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
