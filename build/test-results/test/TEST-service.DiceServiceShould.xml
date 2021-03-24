@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="service.DiceServiceShould" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-24T13:19:20" hostname="ATLANTISPC-1017" time="0.001">
-  <properties/>
-  <testcase name="roll" classname="service.DiceServiceShould" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
